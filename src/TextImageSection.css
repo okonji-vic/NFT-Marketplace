@@ -21,14 +21,14 @@
   }
   
   .headline {
-    font-size: 48px;
+    font-size: 62px;
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 20px;
   }
   
   .description {
-    font-size: 16px;
+    font-size: 1.3vw;
     color: #b0b0b0;
     margin-bottom: 30px;
   }
@@ -47,6 +47,7 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 10%;
   }
   
   .primary-button:hover {
@@ -56,12 +57,13 @@
   .secondary-button {
     background-color: transparent;
     color: white;
-    padding: 12px 24px;
-    font-size: 16px;
+    padding: 8px 0px;
+    font-size: 14px;
     border: 1px solid #888;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    width: 90%;
   }
   
   .secondary-button:hover {

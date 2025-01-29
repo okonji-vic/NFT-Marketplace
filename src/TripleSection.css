@@ -1,0 +1,259 @@
+.triple-section {
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    padding: 1rem 6rem;
+    gap: 1rem;
+    border: px solid #333;
+    height: 100vh;
+    
+  }
+  
+  .carousel-section,
+  .middle-section,
+  .right-section {
+    background: #0d0d1a;
+    padding: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+    .carousel-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 0.5px solid #333;
+    }
+  
+  .carousel-section h2,
+  .right-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+   .carousel {
+    position: relative;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  } 
+
+  .carousel-info {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem; */
+  }
+  .carousel-info p {
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0;
+  }
+
+  .carousel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #333;
+  }
+
+  
+
+  .carousel-header button {
+    background-color: rgba(81, 76, 255, 0.15);
+    color: rgba(81, 76, 255, 1); /* White heart */
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 35%;
+  }
+
+    .carousel-header button:hover {
+        background-color: rgba(81, 76, 255, 1);
+        color: #fff;
+    }
+
+    .carousel-header2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding-bottom: 0rem; */
+    }
+
+    .carousel-header2 p {
+        font-size: 0.8rem;
+        color: #fff;
+        margin: 0.5rem 0;
+    }
+  
+  .carousel-button {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    background: rgba(55, 55, 55, 1);
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .carousel-button:hover {
+    background: rgba(5, 5, 5, 1);
+    color: #fff;
+  }
+  
+  .show-more {
+    background: none;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    transition: all 0.3s;
+  }
+  
+  .show-more:hover {
+    background: #222;
+  }
+  
+  .middle-section {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+
+  }
+  
+  .main-image {
+    position: relative;
+    top: -50px;
+    left: -10px;
+    width: 110%;
+    height: 80vh;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    z-index: 1;
+    
+    
+    
+  }
+
+    .middle-section h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0rem;
+        padding-left: 1rem;
+        border: px solid #333;
+        margin-bottom: 1rem;
+        
+    }
+
+    .middle-section p {
+        font-size: 0.8rem;
+        color: #fff;
+        padding-left: 1rem;
+        border: px solid #333;
+        margin-bottom: 1rem;
+        
+    }
+  
+  .primary-button {
+    background: linear-gradient(90deg, #5a54f9, #3b32d6);
+    color: white;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .primary-button:hover {
+    background: linear-gradient(90deg, #3b32d6, #5a54f9);
+  }
+
+  .right-section {
+    z-index: 2;
+    border: 0.5px solid #333;
+    
+  }
+  
+  .right-section ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .nft-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .nft-image {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .nft-info {
+    display: flex;
+    flex-direction: column;
+    border: px solid #333;
+  }
+
+    .nft-info p {
+        font-size: 1vw;
+        color: #fff;
+        margin: 0.5rem 0;
+    }
+  
+    .nft-header, .nft-header2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 0rem;
+        border-bottom: px solid #333;
+        font-size: 0.9vw;
+    }
+  .nft-title {
+    font-weight: bold;
+  }
+
+  .heart-button {
+    background: #111; /* Dark background */
+    color: white; /* White heart */
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  

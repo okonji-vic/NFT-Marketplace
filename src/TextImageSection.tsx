@@ -11,7 +11,7 @@ const TextImageSection: React.FC = () => {
           Sapien ipsum <br /> scelerisque <br /> convallis fusce
         </h1>
         <p className="description">
-          Ut amet vulputate faucibus vitae semper eget auctor. Diam
+          Ut amet vulputate faucibus vitae semper eget auctor. Diam<br />
           tempor pulvinar ultricies dolor feugiat aliquam commodo.
         </p>
         <div className="buttons">
