@@ -1,0 +1,138 @@
+.bidding-list {
+    display: flex;
+    gap: 10px;
+    /* overflow-x: auto; */
+    overflow: auto;
+    padding: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 100%;
+  }
+
+  .bidding-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+  }
+  
+  .bidding-card {
+    background: #111;
+    border-radius: 12px;
+    /* overflow: hidden; */
+    overflow: visible;
+    width: 400px;
+    min-width: 280px;
+    color: white;
+    transition: transform 0.3s ease;
+    border: 0.5px solid #b0b0b0;
+    padding: 15px;
+  }
+  
+  .bidding-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .bidding-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    
+    
+  }
+  
+  .bidding-details {
+    
+    width: 100%;
+  }
+
+  .timer {
+    font-size: 1vw;
+    opacity: 0.8;
+    text-align: left;
+    border-bottom: 1px solid #b0b0b0;
+    display: flex;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    
+  }
+
+  .bidding-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: px solid #b0b0b0;
+  }
+
+  .bidding-header p {
+    font-size: 1.2vw;
+    opacity: 0.8;
+    text-align: left;
+  }
+
+  .bidding-header span {
+    font-size: 1vw;
+    font-weight: bold;
+    width: 10vw;
+    border: 0.5px solid #b0b0b0;
+    text-align: center;
+    align-self: self-start;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(81, 76, 255, 1);
+    background-color: rgba(81, 76, 255, 0.15);
+  }
+
+  .bidders {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    border: px solid;
+    
+  }
+  .avatar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bidder-avatar {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: px solid #b0b0b0;
+    
+    
+  }
+  
+  .bidders-likes, .bidders-count {
+    font-size: 1vw;
+    opacity: 0.8;
+    margin-left: 0.7vw;
+    border: px solid;
+  }
+
+  .bidders-count {
+    margin-left: -1vw;
+  }
+
+  .bidders-likes {
+    margin-left: 1.7vw;
+  }
+  
+  
+  .bidding-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
+  
