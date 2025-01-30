@@ -78,7 +78,7 @@ This project consists of several reusable and responsive React components built 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/nft-marketplace.git
+   git clone https://github.com/okonji-vic/Tobams-group-internship-assessment.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -93,6 +93,11 @@ This project consists of several reusable and responsive React components built 
    npm run dev
    ```
 
+## Site
+```sh
+https://nft-marketplace-001.netlify.app/
+
+```
 ## Contribution
 
 Feel free to submit pull requests or report issues to improve these components.
