@@ -2,12 +2,12 @@ import React from "react";
 import "./PopularAuctions.css";
 
 const auctions = [
-  { id: 1, image: "/Assets/Item (9).png", title: "Faucibus habitasse at et platea massa mauris" },
-  { id: 2, image: "/Assets/Item (10).png", title: "Diam purus sagittis nisl erat mauris" },
-  { id: 3, image: "/Assets/Item (11).png", title: "Nascetur mauris viverra vel id id sem leo" },
-  { id: 4, image: "/Assets/Image (4).png", title: "Susce id non dui amet amet maecenas" },
-  { id: 5, image: "/Assets/Item (12).png", title: "Tellus duis neque fringilla pulvinar gravida" },
-  { id: 6, image: "/Assets/Item (13).png", title: "Odio lacus neque ultrices purus eget" },
+  { id: 1, image: "/Assets/Item (9).png", title: "Faucibus habitasse at et platea massa mauris", likes: false },
+  { id: 2, image: "/Assets/Item (10).png", title: "Diam purus sagittis nisl erat mauris", likes: false },
+  { id: 3, image: "/Assets/Item (11).png", title: "Nascetur mauris viverra vel id id sem leo", likes: false },
+  { id: 4, image: "/Assets/Image (4).png", title: "Susce id non dui amet amet maecenas", likes: false },
+  { id: 5, image: "/Assets/Item (12).png", title: "Tellus duis neque fringilla pulvinar gravida", likes: true },
+  { id: 6, image: "/Assets/Item (13).png", title: "Odio lacus neque ultrices purus eget", likes: false },
 ];
 
 const PopularAuctions: React.FC = () => {
@@ -33,7 +33,7 @@ const PopularAuctions: React.FC = () => {
                     </div>
                 <div className="auction-info2">
                     <span className="bidders">101 people are bidding</span>
-                    <span className="likes">❤️</span>
+                    <span className="likes">{auction.likes ? "❤️" : <img src="/Assets/Heart Icon (1).png" alt="Likes" />}</span>
             </div>
           </div>
         ))}

@@ -5,6 +5,10 @@
     align-items: center;
     padding: 20px 40px;
     background-color: #14142b;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+
   }
   
   .logo {

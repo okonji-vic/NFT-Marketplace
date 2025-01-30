@@ -1,0 +1,145 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+/* Left Section */
+.footer-logo img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.footer-logo span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footer-links {
+  margin-top: 15vw;
+}
+
+.footer-links a {
+  color: #999;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Middle Section */
+.footer-links-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links-section li {
+  margin-bottom: 10px;
+}
+
+.footer-links-section a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.account-btn {
+  margin-top: 10px;
+  background: linear-gradient(to right, #4c00ff, #9a66ff);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 50px;
+  margin-top: 5vw;
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Right Section - Newsletter */
+.footer-newsletter p {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.newsletter-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 10px;
+  max-width: 300px;
+  margin-top: 13vw;
+  margin-left: 4vw;
+  border: 1px solid #fff;
+}
+
+.newsletter-box input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  
+}
+
+.newsletter-box button {
+  background: none;
+  border: none;
+  color: Purple;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .newsletter-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, 0.1);
+  }
+   */
+/* Responsive Design */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-bottom: 15px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .newsletter-box {
+    margin: auto;
+  }
+}

@@ -1,0 +1,39 @@
+
+.sections-icon-container {
+  display: flex;
+  justify-content: center;
+  
+  gap: 70px;
+    margin-top: 50px;
+    border: px solid #333;
+    padding: 10px;
+}
+
+.section-with-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: px solid #333;   
+}
+
+
+
+.sections-icon-container img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  cursor: pointer;
+  
+}
+
+.sections-icon-container .icon-number {
+  font-size: 48px;
+  
+}
+
+.sections-icon-container .icon-description {
+  font-size: 18px;
+  color: rgba(119, 128, 161, 1);
+  margin-top: 10px;
+  text-align: center;
+}
