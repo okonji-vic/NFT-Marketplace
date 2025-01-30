@@ -52,12 +52,12 @@
     aspect-ratio: 1/1;
   } 
 
-  .carousel-info {
-    /* display: flex;
+  /* .carousel-info {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem; */
-  }
+    margin-top: 1rem;
+  } */
   .carousel-info p {
     font-size: 1rem;
     color: #fff;

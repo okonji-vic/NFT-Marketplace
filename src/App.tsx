@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "./HeroSection";
 import Navbar from "./NavBar";
-import LiveAuctions from "./LiveAuctions";
+// import LiveAuctions from "./LiveAuctions";
 import BiddingList from "./BiddingList";
 import TextImageSection from "./TextImageSection";
 import TripleSection from "./TripleSection";
