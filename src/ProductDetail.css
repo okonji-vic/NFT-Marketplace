@@ -1,0 +1,43 @@
+.product-detail {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .product-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    max-width: 600px;
+  }
+  
+  .bidders {
+    margin-top: 20px;
+  }
+  
+  .avatar-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bidder-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .bid-button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .bid-button:hover {
+    background-color: #e67e22;
+  }
+  

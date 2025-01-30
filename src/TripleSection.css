@@ -256,4 +256,159 @@
     cursor: pointer;
     transition: all 0.3s;
   }
+
+  @media (max-width: 768px) {
+    .triple-section {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .carousel-section,
+    .middle-section,
+    .right-section {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .carousel-section h2,
+    .right-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .carousel img {
+      width: 100%;
+      height: 200px;
+    }
+  
+    .carousel-info p {
+      font-size: 0.8rem;
+    }
+  
+    .carousel-button {
+      top: 40%;
+    }
+  
+    .middle-section {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .main-image {
+      width: 100%;
+      height: 50vh;
+    }
+  
+    .primary-button {
+      width: 100%;
+    }
+  
+    .right-section ul {
+      padding: 0;
+    }
+  
+    .nft-item {
+      gap: 0.5rem;
+    }
+  
+    .nft-image {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .nft-info p {
+      font-size: 0.8rem;
+    }
+  
+    .heart-button {
+      font-size: 1rem;
+    }
+  
+    .carousel-header p {
+      font-size: 1rem;
+    }
+
+    .carousel-header2 p {
+        font-size: 0.8rem;
+    }
+
+    .nft-header, .nft-header2 {
+        font-size: 0.8rem;
+    }
+
+    .carousel-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 0.5px solid #333;
+    }
+
+    .carousel-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #333;
+    }
+
+    .carousel-header button {
+        background-color: rgba(81, 76, 255, 0.15);
+        color: rgba(81, 76, 255, 1); /* White heart */
+        border: none;
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s;
+        width: 35%;
+    }
+
+    .carousel-header button:hover {
+        background-color: rgba(81, 76, 255, 1);
+        color: #fff;
+    }
+
+    .carousel-header2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding-bottom: 0rem; */
+    }
+
+    .carousel-header2 p {
+        font-size: 0.8rem;
+        color: #fff;
+        margin: 0.5rem 0;
+    }
+
+    .carousel-button {
+        position: absolute;
+        top: 30%;
+        right: 10px;
+        background: rgba(55, 55, 55, 1);
+        border: none;
+        padding: 0.5rem 1rem;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .carousel-button:hover {
+        background: rgba(5, 5, 5, 1);
+        color: #fff;
+    }
+
+    .show-more {
+        background: none;
+        border: 1px solid #333;
+        color: #fff;
+        padding: 0.7rem;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 0.7rem;
+        transition: all 0.3s;
+    }
+}
   

@@ -1,3 +1,9 @@
+.bidding-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 .bidding-list {
     display: flex;
     gap: 10px;
@@ -134,5 +140,50 @@
     font-size: 14px;
     opacity: 0.8;
     margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .bidding-card {
+      width: 100%;
+    }
+  
+    .bidding-image {
+      height: 200px;
+    }
+
+    .bidding-header p {
+      font-size: 1.5vw;
+    }
+
+    .bidding-header span {
+      font-size: 1.2vw;
+      width: 15vw;
+    }
+
+    .bidders-likes, .bidders-count {
+      font-size: 1.2vw;
+    }
+
+    .bidders-count {
+      margin-left: -1.5vw;
+    }
+
+    .bidders-likes {
+      margin-left: 2.5vw;
+    }
+
+    .timer {
+      font-size: 1.5vw;
+    }
+
+    .section-title {
+      font-size: 20px;
+    }
+
+    .bidding-footer {
+      font-size: 12px;
+    }
+
+
   }
   

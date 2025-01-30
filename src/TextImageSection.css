@@ -79,4 +79,41 @@
     width: 100%;
     height: auto;
   }
+
+  @media (max-width: 768px) {
+    .text-image-section {
+      flex-direction: column;
+      padding: 50px;
+    }
+    
+    .text-content {
+      max-width: 100%;
+    }
+    
+    .headline {
+      font-size: 48px;
+    }
+    
+    .description {
+      font-size: 16px;
+    }
+    
+    .buttons {
+      flex-direction: column;
+    }
+    
+    .primary-button {
+      width: 90%;
+    }
+    
+    .secondary-button {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    .image-container {
+      max-width: 100%;
+      margin-top: 50px;
+    }
+  }
   

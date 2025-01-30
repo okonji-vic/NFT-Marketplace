@@ -111,3 +111,37 @@
   color: white;
   width: 50%;
 }
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .emoji-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .text-content {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+
+  .primary-emoji-button,
+  .secondary-emoji-button {
+    width: 100%;
+  }
+}

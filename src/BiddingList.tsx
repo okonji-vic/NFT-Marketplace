@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./BiddingList.css";
+import { Link, } from "react-router-dom";
 
 interface BiddingItem {
   id: number;
@@ -93,6 +94,7 @@ const BiddingList: React.FC = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
+          <Link to={`/product/${item.id}`} className="bidding-link">
           <img src={item.image} alt={item.title} className="bidding-image" />
               <div className="bidding-details">
                   <div className="bidding-header">
@@ -122,12 +124,14 @@ const BiddingList: React.FC = () => {
               
               
             </div>
-          </div>
+            </div>
+          </Link>
         </motion.div>
       ))}
             </div>
         </section>
   );
 };
+
 
 export default BiddingList;
