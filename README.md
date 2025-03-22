@@ -2,7 +2,7 @@
 # NFT Marketplace - Product Details & Components
 
 ## Overview
-This project is a React-based NFT marketplace featuring various reusable and responsive components. It includes a **Product Details Component** for viewing NFT bidding items, real-time auction countdowns, and bid history visualization using Chart.js.
+This project is a React-based typescript NFT marketplace featuring various reusable and responsive components. It includes a **Product Details Component** for viewing NFT bidding items, real-time auction countdowns, and bid history visualization using Chart.js.
 
 ## Features
 - **Dynamic Product Display**: Retrieves product details based on the route parameter.

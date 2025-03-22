@@ -10,6 +10,19 @@
     background-color: #0d0d1f;
     color: #ffffff;
   }
+
+  .div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-wrap: wrap;
+  }
+  .div-container p {
+    flex-wrap: wrap;
+    
+    text-align: center;
+  }
   
   
   
